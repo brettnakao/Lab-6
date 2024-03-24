@@ -6,6 +6,7 @@ Created on Sun Mar 10 18:32:08 2024
 @author: brettnakao
 """
 
+# Plot pie-chart
 import matplotlib.pyplot as plt
 
 elements = ['O','Si','Al','Fe','Ca']

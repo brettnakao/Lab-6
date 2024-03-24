@@ -8,9 +8,11 @@ Created on Sun Mar 10 18:08:30 2024
 
 import numpy as np
 
+# Values
 masses = np.array([2, 4, 6, 8])
 velocities = np.array([3, 6, 9, 12])
 
+# Calculate KE
 y = np.empty(len(masses))
 
 for i in range(len(masses)):
@@ -18,7 +20,8 @@ for i in range(len(masses)):
     velocity = velocities[i]
     kinetic_energy = 0.5 * mass * velocity**2
     y[i] = kinetic_energy
-    
+
+# Plotting
 import matplotlib.pyplot as plt
 
 plt.bar(masses, y)

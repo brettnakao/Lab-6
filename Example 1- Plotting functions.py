@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 
 values = np.linspace(2, 7, 10)
 
+# Plotting functions
 fig, axs = plt.subplots(1, 3)
 axs[0].plot(values, np.exp(values), label = '$e^x$')
 axs[0].legend()
